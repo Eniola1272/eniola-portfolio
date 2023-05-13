@@ -1,0 +1,6 @@
+You might have been forgetting to style the individual sections
+
+
+Make sure to add media queries for mobile
+
+Remember that you still need to learn reacr, so hurry up
