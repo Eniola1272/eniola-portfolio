@@ -26,7 +26,7 @@ body {
 .banner {
     position: relative;
     min-height: 100vh;
-    background: linear-gradient(rgb(0, 0, 0, 0.6), #222), url(img/cover_bg_1.jpg);
+    background: linear-gradient(rgb(0, 0, 0, 0.6), #222), url(img/cover_b.jpg);
     background-size: cover;
     background-position: right;
 
@@ -83,6 +83,46 @@ line-height: 1.5em;
 .btn-invert:hover {
     filter: invert(1) !important;
 }
+
+.hero_img {
+    position: absolute;
+    top: -1207px;
+    right: -1304px;
+    transform: scale(.2);
+}
+
+.sausage {
+    position: absolute;
+    display: block;
+    background-color: #2196f3;
+    transform: rotate(38deg);
+    border-radius: 25px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+   
+}
+
+.sausage--1 {
+    top: 74px;
+    right: 365px;
+    height: 134px;
+    width: 49px;
+}
+
+.sausage--2 {
+    top: 284px;
+    right: 35px;
+    height: 134px;
+    width: 49px;
+}
+
+.sausage--3 {
+    
+    top: 348px;
+    right: 497px;
+    height: 187px;
+    width: 49px;
+}
+
 
 /* =========== HEADER (FIXED HEADER) ============= */
 header {
@@ -451,6 +491,11 @@ header.sticky ul li a:hover {
     .form__box {
         min-width: 60%;
         margin-right: -62px;
+    }
+
+
+    .contact-link:hover {
+        color: #f7f7f7 !important;
     }
 }
 
