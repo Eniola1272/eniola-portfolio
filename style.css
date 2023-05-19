@@ -84,6 +84,10 @@ line-height: 1.5em;
     filter: invert(1) !important;
 }
 
+.imgbox {
+    max-width: 50%;
+    max-height: auto;
+}
 .hero_img {
     position: absolute;
     top: -1207px;
@@ -98,7 +102,7 @@ line-height: 1.5em;
     transform: rotate(38deg);
     border-radius: 25px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-   
+    transition: all .3s ease-out;
 }
 
 .sausage--1 {
@@ -108,11 +112,19 @@ line-height: 1.5em;
     width: 49px;
 }
 
+.sausage--1:hover {
+    transform: translate(-5px) rotate(38deg);
+}
+
 .sausage--2 {
     top: 284px;
     right: 35px;
     height: 134px;
     width: 49px;
+}
+
+.sausage--2:hover {
+    transform: translate(5px) rotate(38deg);
 }
 
 .sausage--3 {
@@ -121,6 +133,10 @@ line-height: 1.5em;
     right: 497px;
     height: 187px;
     width: 49px;
+}
+
+.sausage--3:hover {
+    transform: translateY(5px) translateX(-5px) rotate(38deg);
 }
 
 
@@ -181,11 +197,22 @@ header ul li a {
         color: #fefefe;
         margin: 0 15px;
         text-decoration: none;
+        /* color: #f7f7f7; */
+        /* border-bottom: 2px solid transparent; */
+        /* padding: 4px 15px; */
+        /* padding: 2px 10px; */
         
     }
     
     header .menu li a:hover {
         color: #2196f3;
+    }
+
+
+    header .menu li .contact-link:hover {
+        color: #f7f7f7;
+        border-bottom: 2px solid #f7f7f7;
+        /* padding: 4px 15px; */
     }
 }
 
@@ -493,8 +520,7 @@ header.sticky ul li a:hover {
         margin-right: -62px;
     }
 
-
-    .contact-link:hover {
+    .menu li .contact-link:hover {
         color: #f7f7f7 !important;
     }
 }
