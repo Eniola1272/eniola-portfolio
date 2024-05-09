@@ -293,7 +293,7 @@ header.sticky ul li a:hover {
     margin: 20px;
     text-align: center;
     transition: .5s;
-
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     align-items: center;
