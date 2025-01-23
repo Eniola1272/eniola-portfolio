@@ -1,2 +1,3 @@
 # eniola-portfolio
-A portfolio for web developer
+
+A portfolio for website developer built with html, css & javascript
